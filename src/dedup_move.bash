@@ -1,4 +1,8 @@
 #!/bin/bash
+
+#Compilation line: javac -cp .:cplex/cplex.jar *.java
+#Execute line: java -cp .:cplex/x86-64_linux Main <FileName> <K> <Epsilon>
+
 export LD_LIBRARY_PATH=cplex/x86-64_linux
 eps=0
 for k in {20,30}
